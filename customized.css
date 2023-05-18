@@ -1,0 +1,842 @@
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(228, 227, 227);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+    /* background-color: transparent; */
+ }
+ *{
+   margin: 0;
+   padding: 0;
+ }
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---EMAD-PARTITION---XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.nav-background {
+    background-image: url(images/intro-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+    
+ }
+ .nav-bar {
+    width: 100%;
+    height: 90px;
+    background-color: transparent;
+    
+ }
+ .container {
+    width: 100%;
+    height: 80px;
+    background-color: #000;
+    box-sizing: border-box;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+ }
+ #page-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    text-decoration: none;
+    flex: 30%;
+ }
+ .nav-lists {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 270px;
+    flex: 70%;
+    font-size: 1rem;
+ }
+ .nav-comp {
+    padding-left: 20px;
+
+ }
+ li {
+    display: inline;
+    text-decoration: none;
+ }
+ 
+ a {
+    position: relative;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+ }
+ a:hover {
+    color: #fff;
+ }
+ li a::after {
+    content: "";
+    position: absolute;
+    margin-left: 20px;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+ }
+ 
+ a:hover::after {
+    width: 60%;
+    margin-left: 20px;
+ }
+ 
+ .mid-cta {
+    text-align: center;
+    background-color: transparent;
+    margin-top: 180px;
+ }
+ #primary-head {
+    color: white;
+    font-size: 80px;
+    text-decoration: none;
+    margin-bottom: 40px;
+
+ }
+ #secondary-head {
+    color: white;
+    font-size: 40px;
+    
+ }
+ /* xxxxxxxxxxxxxxxxxx--about-part--xxxxxxxxxxxxxxxxxx */
+ .about-background .about-me {
+    width: 82%;
+    background-color: white;
+    height: 600px;
+    position: relative;
+    /* position: absolute; */
+    margin-top: 70px;
+    margin-left: 9%;
+    box-shadow: 10px -5px -10px rgba(0, 0, 0, 3);
+    padding-bottom: 50px;
+ }
+ .about-background .about-me .right-part {
+    width: 50%;
+    /* height: 825px; */
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+ }
+ 
+ .right-part-b {
+    padding-left: 10px;
+ }
+ 
+ .about-background .about-me .right-part .right-part-a {
+    text-decoration: none;
+    font-size: 2rem;
+    position: relative;
+    color: #1e1e1e;
+    /* font-size: 40px; */
+ }
+ 
+ .about-background .about-me .right-part .right-part-b {
+    display: block;
+    color: #fff;
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 300;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 1 rem;
+    letter-spacing: 0.5px;
+    color: #4e4e4e;
+ }
+ 
+ .about-background .about-me .left-part {
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 0;
+ }
+ 
+ .about-background .about-me .left-part .left-p-1 {
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+ }
+ .about-background .about-me .left-part .left-p-1 .left-p-1-img {
+    border-radius: 10px;
+    height: 160px;
+    padding-left: 55px;
+    padding-right: 20px;
+ }
+ .about-background .about-me .left-part .left-p-1 .left-p-1-ul {
+    list-style-type: none;
+    margin-left: 20px;
+ }
+ .about-background .about-me .left-part .left-p-1 .left-p-1-ul .left-p-1-li {
+    padding-bottom: 20px;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+ }
+ span {
+    font-weight: lighter;
+ }
+ .about-background .about-me .left-part .left-p-2 {
+    width: 85%;
+    height: 80%;
+    background-color: white;
+    margin: 15px 5% 0 10%;
+ }
+ .about-background .about-me .left-part .left-p-2 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ 
+ .about-background .about-me .left-part .left-p-2 .left-p-2-html {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-html #html {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-html #no1-html {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .per-html {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(205, 225, 248);
+    position: absolute;
+    bottom: 0;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-html
+    .per-html
+    #remain-html {
+    width: 85%;
+    height: 10px;
+    background-color: rgb(0, 120, 255);
+ }
+ /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ .about-background .about-me .left-part .left-p-2 .left-p-2-css3 {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-css3 #css3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-css3 #no2-css3 {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .per-css3 {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(205, 225, 248);
+    position: absolute;
+    bottom: 0;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-css3
+    .per-css3
+    #remain-css3 {
+    width: 75%;
+    height: 10px;
+    background-color: rgb(0, 120, 255);
+ }
+ /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ .about-background .about-me .left-part .left-p-2 .left-p-2-php {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-php #php {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .left-p-2-php #no3-php {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .per-php {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(205, 225, 248);
+    position: absolute;
+    bottom: 0;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-php
+    .per-php
+    #remain-php {
+    width: 50%;
+    height: 10px;
+    background-color: rgb(0, 120, 255);
+ }
+ /* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+ .about-background .about-me .left-part .left-p-2 .left-p-2-javascript {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    position: relative;
+    margin-bottom: 20px;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-javascript
+    #javascript {
+    position: absolute;
+    top: 0;
+    left: 0;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-javascript
+    #no4-javascript {
+    position: absolute;
+    top: 0;
+    right: 0;
+ }
+ .about-background .about-me .left-part .left-p-2 .per-javascript {
+    width: 100%;
+    height: 10px;
+    background-color: rgb(205, 225, 248);
+    position: absolute;
+    bottom: 0;
+ }
+ .about-background
+    .about-me
+    .left-part
+    .left-p-2
+    .left-p-2-javascript
+    .per-javascript
+    #remain-javascript {
+    width: 90%;
+    height: 10px;
+    background-color: rgb(0, 120, 255);
+ }
+ 
+ #aaa {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 700px;
+    background-color: saddlebrown;
+ }
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---ALI-PARTITION---XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+ .services{
+    width: 100%;
+
+}
+.services #serv-{
+    font-size: 45px;
+    padding-bottom: 5px;
+    padding-top: 40px;
+    
+}
+#lorem{
+    padding-bottom: 15px;
+    font-size: 12px;
+    font-weight: 510;
+}
+#serv- , #lorem { 
+    text-align: center;
+    /* background-color: rgb(65, 105, 5); */
+}
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;  
+    margin-bottom: 10px;
+  }
+
+.services #lorem{
+    font-size: 15px;
+    color: gray;
+}
+.services-content{
+    width: 73%;
+    background-color: transparent;
+    margin: 0 auto;
+    /* height: 900px; */
+    display: flex;
+     flex-wrap: wrap;
+     flex: 1 1 100%;
+}
+
+.s-con-1{
+      
+    background-color: white;
+     height: 350px;
+    min-width: 40ch;
+    max-width: 40ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 45px;
+    margin-bottom: 45px;
+   border-bottom-left-radius: 16px;
+   border-bottom-right-radius: 16px;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+
+
+}
+.s-con-2{
+    background-color: white ;
+     height: 350px;
+    min-width: 40ch;
+    max-width: 40ch;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px; 
+}
+
+.s-ico{
+   height: 124px;
+   /* background-color:#4e4e4e; */
+   width: 100%;
+   margin-top: 30px;
+}
+.s-icon{
+   height: 100px;
+   width: 100px ;
+   /* background-color: darkgray; */
+   margin: 0 auto;
+   border-radius: 50%;
+   text-align: center;
+   border: 12px solid rgb(0, 120, 255);
+   position: relative;
+}
+.s-icon i{
+   position: absolute;
+   /* margin-top: ; */
+   font-size: 40px;
+   font-weight: 700;
+
+}
+
+.s-con-1 p ,.s-con-2 p {
+    text-align: center;
+    
+}
+.s-con-title{
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.s-con-lorem{
+   padding-top: 10px;
+   color: gray;
+}
+/* start of the blue picture */
+
+.blue-pic{
+    background-color: rgb(0, 0, 0);
+    background-image: url(images/counters-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    height: 432.8px ;
+    position: relative;
+}
+.blue-pic .blue-pic-content{
+    background-color: rgba(0,120,255, 0.7);
+    width: 100%;
+    height: 100%;
+    /* position: absolute ; */
+    position: relative;
+    top: 0;
+}
+.content-row{
+    /* background-color: rgb(238, 238, 22); */
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 25%
+}
+.rows{
+    /* background-color: red; */
+    width: 73.6%; 
+    height: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.row-box{
+    width: 285px;
+    /* height: 176.8px; */
+    height: 100%;
+    /* background-color: rgb(27, 19, 17); */
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.row-ico{
+   width: 100%;
+   height: 85px;
+   /* background-color: rgb(228, 227, 227); */
+}
+.row-icon{
+   width: 60px;
+   height: 60px;
+   background-color: transparent;
+   border: 10px solid rgb(255, 255, 255);
+   border-radius: 50%;
+   margin: 0 auto;
+}
+.r-c-num{
+   
+   
+    font-size: 35px;
+   
+    
+}
+.r-c-title{
+    text-transform: uppercase;
+    padding-top: 10px;
+    font-size: 15px;
+
+}
+.r-c-num , .r-c-title{
+   color: white;
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX---ABOOD-PARTITION---XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+.blog-content{
+    width: 100%;
+    /* background-color: brown; */
+    background-color: transparent;
+    margin-top: 50px;
+    
+}
+#blog-name{
+    /* background-color: cadetblue; */
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#blog-lorem{
+    /* background-color: cadetblue; */
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+.dash {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;  
+    margin-bottom: 10px;
+    margin-top: 20px
+  }
+  .blog-links{
+      width: 100%;
+      /* background-color: black; */
+      height: 800px;
+      margin-top: 60px;
+      
+  }
+  .links-box{
+      width: 73%;
+      /* background-color: chartreuse; */
+      height: 489px;
+      margin: 0 auto;
+      display: flex;
+      margin-bottom: 120px;
+
+  }
+  .l-box{
+      width: 380px;
+      height: 489px;
+      background-color: white;
+      margin: 0 15px;  
+      position: relative;
+      border: 1px  solid gray;
+      /* box-shadow: 0px 10px 40px gray; */
+
+  }
+  .box-head{
+     width: 100%;
+     /* background-color: magenta; */
+     height: 47%;
+     padding: 0;
+     margin: 0;
+    
+
+  }
+  .box-img{
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+  
+  }
+  .box-catagory{
+     position: absolute;
+     /* width: 100%; */
+     padding: 7px 15px;
+     border-radius: 7px;
+    background-color: rgb(0, 120, 255);
+    text-align: center;
+    top: 215px; 
+    left:141.3px ;
+  }
+  .box-catagory h4 {
+     font-size: 11.2px;
+     font-weight: 500;
+     text-transform: uppercase;
+     letter-spacing: 0.1px;
+     color: white;
+  }
+  .box-body{
+     /* background-color: burlywood; */
+     width: 100%;
+     height: 40%;
+  }
+  .box-body h1 {
+     font-size: 20.8px ;
+     font-weight: 500;
+     padding-top: 25px;
+     
+  }
+  .box-body p {
+     margin-top: -10px;
+     font-size: 18px;
+     font-weight: 400;
+     color: gray;
+  }
+  .box-body h1 , .box-body p {
+     padding-left: 10px;
+  }
+
+
+  .box-foot{
+     /* background-color: blue; */
+     width: 99.5%;
+     height: 13%;
+     position: relative;
+     border: 1px  solid gray;
+     
+
+  }
+  .box-author img {
+   margin-top: 15px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+
+  }
+ .auther-name{
+    position: absolute;
+   top:20px;
+    font-size: 16px;
+   font-weight: 400;
+   display: inline;
+   color: black;
+   
+   
+ }
+ .auther-time{
+    position: absolute;
+    display: inline;
+    right: 15px;
+   top: 20px;
+   color: gray;
+
+ }
+
+.last-div{
+   background-color: rgb(0, 0, 0);
+   background-image: url(images/overlay-bg.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   background-repeat: no-repeat;
+   height: 926.8px ;
+   position: relative;
+}
+.last-div .last-div-overlay{
+   background-color: rgba(0,120,255, 0.7);
+   width: 100%;
+   height: 100%;
+   position: absolute ;
+   /* position: relative; */
+   top: 0;
+}
+.main-div{
+   background-color: white;
+   width: 75%;
+   height: 77.4%;
+  left: 190px;
+   position:absolute;
+   top: 120px;
+   display: inline;
+   
+   
+}  
+.left-main{
+   width: 50%;
+   height: 93.3%;
+   background-color: transparent;
+   position: absolute;
+   padding-top: 48px;
+}
+.right-main{
+   width: 50%;
+   height: 93.3%;
+   position: absolute;
+   background-color: transparent;
+   right: 0;
+   padding-top: 48px;
+}
+
+
+ input{
+   width: 492px;
+   height: 38px;
+   font-size: 16px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding-left: 10px;
+   margin-left: 30px;
+
+}
+  textarea{
+   width: 492px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+   font-size: 16px;
+   border: 1px solid gray;
+   border-radius: 5px;
+   padding-left: 10px;
+   margin-left: 30px;
+
+   
+
+}
+.name{
+   margin: 15px 0  ;
+   padding: 6px 12px;
+}
+.f-b{
+   
+    width: 197.5px;
+   height: 59.2px;
+   background-color: rgb(0, 120, 255)  ;
+   position: relative;
+   left: 40px;
+   position: absolute;
+   border-radius: 80px;
+}
+.f-b :hover{
+   color: black;
+}
+.form-button{
+  
+   
+   position: absolute;
+   top: 15px;
+   left: 36.8px;
+
+  
+  
+   
+   
+}
+.form-button p {
+  font-size: 19.2px;
+  font-weight: 400;
+color: white;
+   
+}
+.send-us{
+   font-size: 32px;
+   text-transform: capitalize;
+   font-weight: 500;
+   margin-left: 40px ;
+}
+.dash-2{
+   width: 100px;
+   height: 3.5px;
+   background-color: #0078ff;
+   margin-left: 40px; 
+   margin-bottom: 10px;
+   margin-top: 7px;
+ }
+.right-body{
+   color: gray;
+   font-size: 20px;
+   font-weight: 300;
+   margin-left: 20px;
+   margin-top: 30px;
+   padding-right: 20px;
+}
+.right-lower-body{
+   font-size: 16;
+   font-weight: 400;
+   color: rgb(119, 119, 119);
+   margin-left: 20px;
+   margin-top: 20px;
+}
+.right-icon{
+   /* background-color: tomato; */
+   width: 260px;
+   height: 50px;
+   display: flex;
+   margin-top: 25px;
+}
+.right-icon .icons{
+   /* background-color: violet; */
+   margin-left: 15px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   border: 4px solid rgb(0, 120, 255);
+}
